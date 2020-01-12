@@ -32,9 +32,7 @@
        {
            background: white;
            /*padding: 20px;*/
-           height:200px;
-           width: 200px;
-           border-radius:100px;
+
            /*text-align: center;*/
            border: 1px solid #ececec;
            box-shadow: 0 19px 38px rgba(0,0,0,0.10), 0 15px 12px rgba(0,0,0,0.2);
@@ -60,6 +58,14 @@
            text-align: center;
            color: white;
            box-shadow: 0 9px 18px rgba(0,0,0,0.12), 0 5px 7px rgba(0,0,0,0.05);
+       }
+       
+       .item img
+       {
+           height:200px;
+           width: 200px;
+           border-radius: 100px;
+           
        }
     
        #customers-testimonials .item
@@ -186,10 +192,22 @@
            font-weight: 700;
         
        }
+
 @media only screen and (max-width: 700px)
     {
         
-       #select
+       .shadow-effect
+       {
+           background: white;
+           /*padding: 20px;*/
+           height:600px;
+           width: 600px;
+           border-radius:100px;
+           /*text-align: center;*/
+           border: 1px solid #ececec;
+           box-shadow: 0 19px 38px rgba(0,0,0,0.10), 0 15px 12px rgba(0,0,0,0.2);
+       }
+        #select
        {
            display: flex;
            justify-content: center;
@@ -352,9 +370,13 @@ div.owl-carousel .owl-nav .owl-prev, div.owl-carousel .owl-nav .owl-next{
 		              },
                       400:
                         {
+                            items:3
+                        },
+                      700:
+                        {
                             items:1
                         },
-		              700: {
+		              1000: {
 		                items: 1
 		              },
 		              1170: {
