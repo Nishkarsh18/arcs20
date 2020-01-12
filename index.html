@@ -17,8 +17,10 @@
        body
        {
            font-family: tahoma;
-     
-           
+       }
+       #workshop
+       {
+           height: 100vh;
        }
     h1
        {
@@ -318,7 +320,6 @@ div.owl-carousel .owl-nav .owl-prev, div.owl-carousel .owl-nav .owl-next{
            position: relative;
            top:-500px;
            left: -300px;
-           display: none;
        }
        .owl-next
        {
@@ -330,9 +331,8 @@ div.owl-carousel .owl-nav .owl-prev, div.owl-carousel .owl-nav .owl-next{
            background-size: cover;
            color: white;
            position: relative;
-           left:400px;
-           top:800px;
-           display: none;
+           left:500px;
+           top:-1000px;
    
        }
        .owl-theme
@@ -380,20 +380,15 @@ div.owl-carousel .owl-nav .owl-prev, div.owl-carousel .owl-nav .owl-next{
            border-radius: 100px;
            
        }
-         #customers-testimonials .owl-item.active.center .item img
-       {
-           height:300px;
-           width: 300px;
-           border-radius: 200px;
-           position: relative;
-           top:35px;
-       }
         #customers-testimonials .owl-item.active.center .item img
        {
-           height:200px;
-           width: 200px;
-           border-radius: 100px;
+           height:150px;
+           width: 150px;
+           border-radius: 75px;
+           position: relative;
+           top:50px;
        }
+    
         .shadow-effect
        {
            background: white;
@@ -409,7 +404,7 @@ div.owl-carousel .owl-nav .owl-prev, div.owl-carousel .owl-nav .owl-next{
        {
            display: flex;
            justify-content: center;
-           font-size: 20px;
+           font-size: 15px;
            font-weight: 800;
            font-family: sans-serif;
        }     
@@ -448,18 +443,34 @@ div.owl-carousel .owl-nav .owl-prev, div.owl-carousel .owl-nav .owl-next{
 .item  h1 {
   transform: rotate(-90deg);
   position: relative;
-  left:150px;
+  left:110px;
   height: 100px;
   top:-120px;
+  font-size: 20px;
+  font-family: serif;
+  font-weight: 800; 
   
 }
+ #customers-testimonials .owl-item.active.center .item h1
+        {
+            position: relative;
+            left: 150px;
+            top:-95px;
+        }
+ #customers-testimonials .owl-item.active.center .item p
+        {
+            font-size: 12px;
+            position: relative;
+            top:-300px;
+            left: 280px;
+        }
 .container
         {
-            height: 800px;
-            width: 1000px;
+            height: 900px;
+            width: 750px;
             position: absolute;
             left: 150px;
-            top:-200px;
+            top:-190px;
         }
 .owl-carousel .owl-nav{
   display: flex;
@@ -475,17 +486,18 @@ div.owl-carousel .owl-nav .owl-prev, div.owl-carousel .owl-nav .owl-next{
 }
      .owl-prev
        {
-           transform: rotate(-90deg);
+           
            height: 50px;
            width: 50px;
            border-radius: 50%;
            background-image: url(left5.PNG);
            background-size: cover;
            color: white;
-           position: relative;
-           top:-500px;
-           left: -300px;
-           display: none;
+           position: absolute;
+           top:400px;
+           left:300px;
+          
+           
        }
        .owl-next
        {
@@ -497,9 +509,10 @@ div.owl-carousel .owl-nav .owl-prev, div.owl-carousel .owl-nav .owl-next{
            background-size: cover;
            color: white;
            position: relative;
-           left:400px;
-           top:800px;
-           display: none;
+           left:80px;
+           top:80px;
+           z-index: 2000;
+           
    
        }
        .owl-theme
@@ -507,6 +520,20 @@ div.owl-carousel .owl-nav .owl-prev, div.owl-carousel .owl-nav .owl-next{
             display: flex;
             justify-content: center;
         }
+         #register2
+       {
+           display: flex;
+           justify-content: center;
+           background-color: #faa41a;
+           padding:10px;
+           margin-top:10px;
+           margin-bottom: 20px;
+           font-family: sans-serif;
+           font-size: 15px;
+           font-weight: 700;
+        
+       }
+
 }
  </style>
 </head>
@@ -523,7 +550,7 @@ div.owl-carousel .owl-nav .owl-prev, div.owl-carousel .owl-nav .owl-next{
                     <img class="shadow-effect" src="1.jpg" class="img-circle" alt="">
                         <h1>UI/UX</h1>
                         <p>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel voluptatibus unde officiis nostrum at sequi ipsa asperiores quam sapiente numquam itaque eius, esse dolores debitis ex? Cum tempora obcaecati repellendus.
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel voluptatibus unde officiis nostrum at sequi ipsa asperiores quam sapiente numquam itaque eius, esse 
                         </p>
                         
                     </div>
@@ -532,7 +559,7 @@ div.owl-carousel .owl-nav .owl-prev, div.owl-carousel .owl-nav .owl-next{
                     <img class="shadow-effect" src="2.jpg" class="img-circle" alt="">
                         <h1>UI/UX</h1>
                         <p>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel voluptatibus unde officiis nostrum at sequi ipsa asperiores quam sapiente numquam itaque eius, esse dolores debitis ex? Cum tempora obcaecati repellendus.
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel voluptatibus unde officiis nostrum at sequi ipsa asperiores quam sapiente numquam itaque eius, esse 
                         </p>
                         
                     </div>
@@ -540,7 +567,7 @@ div.owl-carousel .owl-nav .owl-prev, div.owl-carousel .owl-nav .owl-next{
                     <img class="shadow-effect" src="03.jpg" class="img-circle" alt="">
                          <h1>UI/UX</h1>
                         <p>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel voluptatibus unde officiis nostrum at sequi ipsa asperiores quam sapiente numquam itaque eius, esse dolores debitis ex? Cum tempora obcaecati repellendus.
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel voluptatibus unde officiis nostrum at sequi ipsa asperiores quam sapiente numquam itaque eius, esse 
                         </p>
                         
                     </div>
@@ -548,7 +575,7 @@ div.owl-carousel .owl-nav .owl-prev, div.owl-carousel .owl-nav .owl-next{
                     <img class="shadow-effect" src="6.jpg" class="img-circle" alt="">
                        <h1>UI/UX</h1>
                         <p>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel voluptatibus unde officiis nostrum at sequi ipsa asperiores quam sapiente numquam itaque eius, esse dolores debitis ex? Cum tempora obcaecati repellendus.
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel voluptatibus unde officiis nostrum at sequi ipsa asperiores quam sapiente numquam itaque eius, esse 
                         </p>
                         
                     </div>
@@ -556,7 +583,7 @@ div.owl-carousel .owl-nav .owl-prev, div.owl-carousel .owl-nav .owl-next{
                     <img class="shadow-effect" src="04.jpg" class="img-circle" alt="">
                       <h1>UI/UX</h1>
                         <p>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel voluptatibus unde officiis nostrum at sequi ipsa asperiores quam sapiente numquam itaque eius, esse dolores debitis ex? Cum tempora obcaecati repellendus.
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel voluptatibus unde officiis nostrum at sequi ipsa asperiores quam sapiente numquam itaque eius, esse 
                         </p>
                         
                     </div>
@@ -580,17 +607,21 @@ div.owl-carousel .owl-nav .owl-prev, div.owl-carousel .owl-nav .owl-next{
 		            items: 3,
 		            margin: 0,
 		            autoplay: true,
-		            dots:true,
+		            dots:false,
 		            autoplayTimeout: 8500,
 		            smartSpeed: 450,
                     nav: true,
 		            responsive: {
 		              0: {
-		                items: 3
+		                items: 3,
+                        animateOut: 'slideOutUp',
+                        animateIn: 'slideInUp'
 		              },
                       400:
                         {
-                            items:3
+                            items:3,
+                            animateOut: 'slideOutUp',
+                            animateIn: 'slideInUp'
                         },
                       700:
                         {
