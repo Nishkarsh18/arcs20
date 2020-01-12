@@ -209,6 +209,38 @@
             width: 800px;
         }
     }
+@media only screen and (max-width: 1000px)
+    {
+        
+    .container
+        {
+            width: 800px;
+        }
+    .owl-prev
+       {
+           height: 50px;
+           width: 50px;
+           border-radius: 50%;
+           background-image: url(left5.png);
+           background-size: cover;
+           color: white;
+           position: absolute;
+           top:100px;
+           left:10%;
+       }
+       .owl-next
+       {
+           height: 50px;
+           width: 50px;
+           border-radius: 50%;
+           background-image: url(right5.png);
+           background-size: cover;
+           color: white;
+           position: absolute;
+           top:100px;
+           left:82%;
+       }
+    }
 @media only screen and (max-width: 700px)
     {
         
@@ -298,15 +330,16 @@
 .item  h1 {
   transform: rotate(-90deg);
   position: relative;
-  left:150px;
+  left:120px;
   height: 100px;
   top:-120px;
+  font-size: 25px;
   
 }
 .container
         {
             height: 800px;
-            width: 1000px;
+            width:750px;
             position: absolute;
             left: 300px;
             top:-200px;
@@ -346,8 +379,7 @@ div.owl-carousel .owl-nav .owl-prev, div.owl-carousel .owl-nav .owl-next{
            background-size: cover;
            color: white;
            position: relative;
-           display: flex;
-           justify-content: flex-start;
+           
    
        }
        .owl-theme
@@ -360,9 +392,13 @@ div.owl-carousel .owl-nav .owl-prev, div.owl-carousel .owl-nav .owl-next{
            opacity: 1;
           transform: scale3d(1.0, 1.0, 1);
            position: relative;
-           left: -50px;
+           left: -35px;
            
        }
+        #register2
+        {
+            display: none;
+        }
         
 }
 @media only screen and (max-width: 500px)
@@ -371,9 +407,9 @@ div.owl-carousel .owl-nav .owl-prev, div.owl-carousel .owl-nav .owl-next{
           #customers-testimonials .owl-item.active.center .item
        {
            opacity: 1;
-          transform: scale3d(1.0, 1.0, 1);
+           transform: scale3d(1.0, 1.0, 1);
            position: relative;
-           left: -50px;
+           left: -20px;
            
        }
         
@@ -477,7 +513,7 @@ div.owl-carousel .owl-nav .owl-prev, div.owl-carousel .owl-nav .owl-next{
         {
             font-size: 12px;
             position: relative;
-            top:-300px;
+            top:-310px;
             left: 280px;
         }
 .container
@@ -485,7 +521,7 @@ div.owl-carousel .owl-nav .owl-prev, div.owl-carousel .owl-nav .owl-next{
             height: 800px;
             width: 650px;
             position: absolute;
-            left: 150px;
+            left: 190px;
             top:-190px;
         }
 .owl-carousel .owl-nav{
@@ -549,8 +585,51 @@ div.owl-carousel .owl-nav .owl-prev, div.owl-carousel .owl-nav .owl-next{
            font-weight: 700;
         
        }
+        #register2
+        {
+            display: none;
+        }
 
 }
+@media only screen and (max-width: 380px)
+    {
+        #register2
+        {
+            display: none;
+        }
+        .container
+        {
+            height: 800px;
+            width: 600px;
+            position: absolute;
+            left: 180px;
+            top:-190px;
+        }
+         #customers-testimonials .owl-item.active.center .item img
+       {
+           height:140px;
+           width: 140px;
+           border-radius: 70px;
+           position: relative;
+           top:65px;
+           left: 20px;
+       }
+         #customers-testimonials .owl-item.active.center .item h1
+        {
+            position: relative;
+            left: 145px;
+            top:-75px;
+        }
+        
+        #customers-testimonials .owl-item.active.center .item p
+        {
+            font-size: 12px;
+            position: relative;
+            top:-290px;
+            left: 270px;
+        }
+    
+    }
  </style>
 </head>
 <body>
@@ -643,8 +722,16 @@ div.owl-carousel .owl-nav .owl-prev, div.owl-carousel .owl-nav .owl-next{
                         {
                             items:2
                         },
+                        701:
+                        {
+                            items:1
+                        },
+                        950:
+                        {
+                            items:1
+                        },
 		              1000: {
-		                items: 2
+		                items: 1
 		              },
 		              1200: {
 		                items: 3
