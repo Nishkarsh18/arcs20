@@ -17,11 +17,9 @@
        body
        {
            font-family: tahoma;
-       }
-       #workshop
-       {
            height: 100vh;
        }
+       
     h1
        {
            text-align: center;
@@ -33,7 +31,6 @@
        .shadow-effect
        {
            background: white;
-           /*padding: 20px;*/
 
            /*text-align: center;*/
            border: 1px solid #ececec;
@@ -64,10 +61,9 @@
        
        .item img
        {
-           height:200px;
-           width: 200px;
-           border-radius: 134px;
-           
+           height:280px;
+           width:180px;
+            border-radius: 90px;    
        }
     
        #customers-testimonials .item
@@ -193,13 +189,31 @@
            font-weight: 700;
         
        }
+       section
+       {
+           height: 100%;
+       }
 @media only screen and (max-width: 1400px)
     {
         
     .container
         {
             width: 1000px;
+            
         }
+        #register2
+       {
+           display: flex;
+           justify-content: center;
+           background-color: #faa41a;
+           padding:10px;
+           margin-top:15px;
+           margin-bottom: 30px;
+           font-family: sans-serif;
+           font-size: 15px;
+           font-weight: 700;
+        
+       }
     }
 @media only screen and (max-width: 1200px)
     {
@@ -208,13 +222,29 @@
         {
             width: 800px;
         }
+        
+    
+       .item img
+       {
+           height:180px;
+           width:150px;
+           border-radius: 140px;           
+       }
+        #customers-testimonials .owl-item.active.center .item img
+       {
+           height:200px;
+           width: 200px;
+           border-radius: 100px;
+       }
+        
+    
     }
-@media only screen and (max-width: 1000px)
+@media only screen and (max-width: 950px)
     {
         
     .container
         {
-            width: 800px;
+            width: 600px;
         }
     .owl-prev
        {
@@ -226,7 +256,7 @@
            color: white;
            position: absolute;
            top:100px;
-           left:10%;
+           left:-10%;
        }
        .owl-next
        {
@@ -238,7 +268,20 @@
            color: white;
            position: absolute;
            top:100px;
-           left:82%;
+           left:101%;
+       }
+        
+        .item img
+       {
+           height:100px;
+           width:100px;
+           border-radius: 50px;           
+       }
+         #customers-testimonials .owl-item.active.center .item img
+       {
+           height:150px;
+           width: 150px;
+           border-radius: 75px;
        }
     }
 @media only screen and (max-width: 700px)
@@ -258,8 +301,8 @@
         .item img
        {
            height:100px;
-           width: 100px;
-           border-radius: 100px;
+           width: 50px;
+           border-radius: 0px;
            
        }
          #customers-testimonials .owl-item.active.center .item img
@@ -272,9 +315,9 @@
        }
         #customers-testimonials .owl-item.active.center .item img
        {
-           height:200px;
-           width: 200px;
-           border-radius: 100px;
+           height:150px;
+           width: 150px;
+           border-radius: 75px;
        }
         .shadow-effect
        {
@@ -339,10 +382,10 @@
 .container
         {
             height: 800px;
-            width:750px;
+            width:650px;
             position: absolute;
-            left: 300px;
-            top:-200px;
+            left: 350px;
+            top:-190px;
         }
 .owl-carousel .owl-nav{
   display: flex;
@@ -351,11 +394,7 @@
   width: 100%;
   top: calc(50% - 33px);
 }
-div.owl-carousel .owl-nav .owl-prev, div.owl-carousel .owl-nav .owl-next{
-    font-size:36px;
-    top:unset;
-    bottom: 15px; 
-}
+
      .owl-prev
        {
            transform: rotate(-90deg);
@@ -395,13 +434,48 @@ div.owl-carousel .owl-nav .owl-prev, div.owl-carousel .owl-nav .owl-next{
            left: -35px;
            
        }
+         #customers-testimonials .owl-item.active.center .item h1
+       {
+           
+           position: relative;
+           left: 140px;
+           top:-88px;
+           
+       }
+         #customers-testimonials .owl-item.active.center .item p
+       {
+           
+           position: relative;
+           left: 270px;
+           top:-300px;
+           
+       }
+        #customers-testimonials .owl-item.active.center .item img
+       {
+           
+           position: relative;
+           left: 0px;
+           top:60px;
+           
+       }
         #register2
         {
             display: none;
         }
         
 }
-@media only screen and (max-width: 500px)
+       @media only screen and (max-width: 630px)
+       {
+           .container
+        {
+            height: 800px;
+            width:650px;
+            position: absolute;
+            left: 300px;
+            top:-170px;
+        }
+       }
+@media only screen and (max-width: 550px)
     {
         
           #customers-testimonials .owl-item.active.center .item
@@ -409,7 +483,7 @@ div.owl-carousel .owl-nav .owl-prev, div.owl-carousel .owl-nav .owl-next{
            opacity: 1;
            transform: scale3d(1.0, 1.0, 1);
            position: relative;
-           left: -20px;
+           left: -40px;
            
        }
         
@@ -521,7 +595,7 @@ div.owl-carousel .owl-nav .owl-prev, div.owl-carousel .owl-nav .owl-next{
             height: 800px;
             width: 650px;
             position: absolute;
-            left: 190px;
+            left: 240px;
             top:-190px;
         }
 .owl-carousel .owl-nav{
@@ -591,7 +665,28 @@ div.owl-carousel .owl-nav .owl-prev, div.owl-carousel .owl-nav .owl-next{
         }
 
 }
-@media only screen and (max-width: 380px)
+       @media only screen and (max-width: 460px)
+    {
+       
+       .container
+        {
+            height: 800px;
+            width: 650px;
+            position: absolute;
+            left: 220px;
+            top:-190px;
+        }
+        
+        #customers-testimonials .owl-item.active.center .item 
+        {
+            
+            position: relative;
+            top:10px;
+            left: -30px;
+        }
+       
+    }
+@media only screen and (max-width: 400px)
     {
         #register2
         {
@@ -600,9 +695,9 @@ div.owl-carousel .owl-nav .owl-prev, div.owl-carousel .owl-nav .owl-next{
         .container
         {
             height: 800px;
-            width: 600px;
+            width: 650px;
             position: absolute;
-            left: 180px;
+            left: 200px;
             top:-190px;
         }
          #customers-testimonials .owl-item.active.center .item img
@@ -629,6 +724,18 @@ div.owl-carousel .owl-nav .owl-prev, div.owl-carousel .owl-nav .owl-next{
             left: 270px;
         }
     
+    }
+    @media only screen and (max-width: 360px)
+    {
+        .container
+        {
+            height: 800px;
+            width: 650px;
+            position: absolute;
+            left: 160px;
+            top:-190px;
+        }
+       
     }
  </style>
 </head>
@@ -708,10 +815,18 @@ div.owl-carousel .owl-nav .owl-prev, div.owl-carousel .owl-nav .owl-next{
                     nav: true,
 		            responsive: {
 		              0: {
-		                items: 3,
+		                items: 1,
                         animateOut: 'slideOutUp',
                         animateIn: 'slideInUp'
 		              },
+                      320:
+                        {
+                            items:1
+                        },
+                     321:
+                        {
+                            items:3
+                        },
                       400:
                         {
                             items:3,
@@ -722,16 +837,12 @@ div.owl-carousel .owl-nav .owl-prev, div.owl-carousel .owl-nav .owl-next{
                         {
                             items:2
                         },
-                        701:
-                        {
-                            items:1
-                        },
                         950:
                         {
-                            items:1
+                            items:3
                         },
 		              1000: {
-		                items: 1
+		                items: 3
 		              },
 		              1200: {
 		                items: 3
