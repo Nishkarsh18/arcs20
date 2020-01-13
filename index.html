@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
         <!-- Compiled and minified CSS -->
+    
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
     <title>ARCS20</title>
@@ -14,6 +15,60 @@
    
    <style>
     
+      * {
+  box-sizing: border-box;
+}
+
+/* Set a background color */
+body {
+  background-color: white;
+   font-family: 'Montserrat', sans-serif;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  width:100%;
+  height: 100vh;
+}
+
+/* The actual timeline (the vertical ruler) */
+
+.timeline_wrap
+{
+  position: absolute;
+  top:10px;
+  left:30px;
+  width:20px;
+}
+
+.vertical_line
+{
+  width:1px;
+  background-color: rgba(220,220,220,0.7);
+  margin:0 auto;
+  border-radius: 10px;
+  height: 100vh;
+}
+
+.dots
+{
+  width:5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: rgba(210,210,210,0.8);
+  margin:0px 0 2500% 0;
+  position: relative;
+  left:-2px;
+  top:15px;
+}
+
+.number
+{
+  float:right;
+  position: relative;
+  top:8px;
+  left:-8px;
+  z-index:10;
+}
+
        body
        {
            font-family: tahoma;
@@ -1129,6 +1184,83 @@ div.owl-carousel .owl-nav .owl-prev, div.owl-carousel .owl-nav .owl-next{
         
     </section>
     </div> 
+    <div class="timeline_wrap">
+
+    <div class="vertical_line">
+
+      <div class="number">
+        <p>01</p>
+      </div>
+
+      <div class="dots" style="background-color: black">
+      </div>
+
+      <div class="dots">
+      </div>
+
+      <div class="dots">
+      </div>
+
+      <div class="dots">
+      </div>
+
+      <div class="dots" style="background-color: black">
+      </div>
+
+      <div class="menu" style="position: relative;top:-42.5px">
+        <p>02   Workshops </p>
+      </div>
+
+      <div class="dots">
+      </div>
+
+      <div class="dots">
+      </div>
+
+      <div class="dots">
+      </div>
+
+      <div class="dots" style="background-color: black">
+      </div>
+
+      <div class="menu" style="position: relative;top:-42.5px">
+        <p>03</p>
+      </div>
+
+      <div class="dots">
+      </div>
+
+      <div class="dots">
+      </div>
+
+      <div class="dots">
+      </div>
+
+      <div class="dots" style="background-color: black">
+      </div>
+
+       <div class="menu" style="position: relative;top:-42.5px">
+        <p>04</p>
+      </div>
+
+      <div class="dots">
+      </div>
+
+      <div class="dots">
+      </div>
+
+      <div class="dots">
+      </div>
+
+      <div class="dots" style="background-color: black">
+      </div>
+
+      <div class="menu" style="position: relative;top:-42.5px">
+        <p>05</p>
+      </div>
+
+    </div>
+  </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.1/owl.carousel.min.js"></script>
     <script>
