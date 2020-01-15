@@ -384,6 +384,7 @@
               }
               .item
               {
+                 
                   width: 600px;
               }
               
@@ -479,6 +480,7 @@
                  position: relative;
                  left: 270px;
                  top:-300px;
+                 font-weight: 600;
                  
              }
               #customers-testimonials .owl-item.active.center .item img
@@ -501,6 +503,8 @@
              {
                  
               
+              
+                 
                  .container
               {
                   height: 800px;
@@ -657,9 +661,12 @@
               {
                   height: 800px;
                   width:550px;
-                  position: absolute;
+                 /* position: absolute;
                   left: 340px;
-                  top:-190px;
+                  top:-190px;*/
+                   margin-left: auto;
+                  margin-bottom: auto;
+                  margin-top: auto;
               }
              }
              @media only screen and (max-width: 500px)
@@ -668,10 +675,28 @@
               {
                   height: 800px;
                   width:550px;
-                  position: absolute;
+                  /*position: absolute;
                   left: 300px;
-                  top:-190px;
+                  top:-190px;*/
+                   margin-left: auto;
+                  margin-bottom: auto;
+                  margin-top: auto;
               }
+                 .owl-next
+             {
+                 transform: rotate(-90deg);
+                 height: 35px;
+                 width: 35px;
+                 border-radius: 50%;
+                 background-image: url(right5.png);
+                 background-size: cover;
+                 color: white;
+                position: relative;
+                top:-365px;
+                left:-30px;  
+         
+             }
+                 
              }
                 @media only screen and (max-width: 450px)
              {
@@ -699,7 +724,10 @@
                   width:530px;
                   position: absolute;
                   left: 275px;
-                  top:-190px;
+                  /*top:-190px;*/
+                   margin-left: auto;
+                  margin-bottom: auto;
+                  margin-top: auto;
               }
                  .owl-prev
              {
@@ -768,10 +796,13 @@
               {
                   height: 800px;
                   width:540px;
-                  position: absolute;
+                  /*position: absolute;*/
+                   margin-left: auto;
+                  margin-bottom: auto;
+                  margin-top: auto;
                   /* left: 235px; */
-                  left: 200px;
-                  top:-190px;
+                  /*left: 200px;
+                  top:-190px;*/
               }
                  .owl-prev
              {
@@ -810,9 +841,9 @@
                  }
                   #customers-testimonials .owl-item.active.center .item img
              {
-                 height:130px;
-                 width: 130px;
-                 border-radius: 65px;
+                 height:150px;
+                 width: 150px !important;
+                 border-radius: 100%;
                  position: relative;
                  left: 10px;
                  top:70px;
@@ -838,9 +869,10 @@
                  .container
               {
                   height: 800px;
-                  width:540px;
+                  width:560px;
                   
-                  margin-left: auto;
+                  margin-left: -50px;
+                  
                   margin-bottom: auto;
                   margin-top: auto;
                   /*position: absolute;
@@ -862,6 +894,14 @@
                 
                  font-size: 20px !important;
              }
+                 #customers-testimonials .owl-item.active.center .item
+             {
+                
+                 position: relative;
+                 top:-10px;
+                 
+             }
+                 
             .owl-next
              {
                  transform: rotate(-90deg);
@@ -1185,11 +1225,11 @@ google.maps.event.addDomListener(window, 'load', showGoogleMaps);
 		            autoplayTimeout: 8500,
 		            smartSpeed: 450,
                     nav: true,
+                    
 		            responsive: {
 		              0: {
 		                items: 1,
-                        animateOut: 'slideOutUp',
-                        animateIn: 'slideInUp'
+                       
 		              },
                       320:
                         {
@@ -1202,8 +1242,7 @@ google.maps.event.addDomListener(window, 'load', showGoogleMaps);
                       400:
                         {
                             items:3,
-                            animateOut: 'slideOutUp',
-                            animateIn: 'slideInUp'
+                       
                         },
                       700:
                         {
